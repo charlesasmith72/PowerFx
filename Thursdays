@@ -1,0 +1,33 @@
+If(DateDiff(Text(If(Weekday(Month(DateAdd(Month(Today())&"/1/"&Year(Today()), 0))&"/1/"&Year(DateAdd(Month(Today())&"/1/"&Year(Today()), 0))) > 5, 
+DateAdd(Month(DateAdd(Month(Today())&"/1/"&Year(Today()), 0))&"/1/"&Year(DateAdd(Month(Today())&"/1/"&Year(Today()), 0)), 5-Weekday(Month(DateAdd(Month(Today())&"/1/"&Year(Today()), 0))&"/1/"&Year(DateAdd(Month(Today())&"/1/"&Year(Today()), 0)))+21),
+ DateAdd(Month(DateAdd(Month(Today())&"/1/"&Year(Today()), 0))&"/1/"&Year(DateAdd(Month(Today())&"/1/"&Year(Today()), 0)), 5-Weekday(Month(DateAdd(Month(Today())&"/1/"&Year(Today()), 0))&"/1/"&Year(DateAdd(Month(Today())&"/1/"&Year(Today()), 0)))+14)), DateTimeFormat.ShortDate), Today()) < 0,
+[
+Text(If(Weekday(Month(DateAdd(Month(Today())&"/1/"&Year(Today()), 0))&"/1/"&Year(DateAdd(Month(Today())&"/1/"&Year(Today()), 0))) > 5, 
+DateAdd(Month(DateAdd(Month(Today())&"/1/"&Year(Today()), 0))&"/1/"&Year(DateAdd(Month(Today())&"/1/"&Year(Today()), 0)), 5-Weekday(Month(DateAdd(Month(Today())&"/1/"&Year(Today()), 0))&"/1/"&Year(DateAdd(Month(Today())&"/1/"&Year(Today()), 0)))+21),
+ DateAdd(Month(DateAdd(Month(Today())&"/1/"&Year(Today()), 0))&"/1/"&Year(DateAdd(Month(Today())&"/1/"&Year(Today()), 0)), 5-Weekday(Month(DateAdd(Month(Today())&"/1/"&Year(Today()), 0))&"/1/"&Year(DateAdd(Month(Today())&"/1/"&Year(Today()), 0)))+14)), DateTimeFormat.ShortDate),
+
+
+Text(If(Weekday(Month(DateAdd(Month(Today())&"/1/"&Year(Today()), 32))&"/1/"&Year(DateAdd(Month(Today())&"/1/"&Year(Today()), 32))) > 5, 
+DateAdd(Month(DateAdd(Month(Today())&"/1/"&Year(Today()), 32))&"/1/"&Year(DateAdd(Month(Today())&"/1/"&Year(Today()), 32)), 5-Weekday(Month(DateAdd(Month(Today())&"/1/"&Year(Today()), 32))&"/1/"&Year(DateAdd(Month(Today())&"/1/"&Year(Today()), 32)))+21),
+ DateAdd(Month(DateAdd(Month(Today())&"/1/"&Year(Today()), 32))&"/1/"&Year(DateAdd(Month(Today())&"/1/"&Year(Today()), 32)), 5-Weekday(Month(DateAdd(Month(Today())&"/1/"&Year(Today()), 32))&"/1/"&Year(DateAdd(Month(Today())&"/1/"&Year(Today()), 32)))+14)), DateTimeFormat.ShortDate),
+
+Text(If(Weekday(Month(DateAdd(Month(Today())&"/1/"&Year(Today()), 64))&"/1/"&Year(DateAdd(Month(Today())&"/1/"&Year(Today()), 64))) > 5, 
+DateAdd(Month(DateAdd(Month(Today())&"/1/"&Year(Today()), 64))&"/1/"&Year(DateAdd(Month(Today())&"/1/"&Year(Today()), 64)), 5-Weekday(Month(DateAdd(Month(Today())&"/1/"&Year(Today()), 64))&"/1/"&Year(DateAdd(Month(Today())&"/1/"&Year(Today()), 64)))+21),
+ DateAdd(Month(DateAdd(Month(Today())&"/1/"&Year(Today()), 64))&"/1/"&Year(DateAdd(Month(Today())&"/1/"&Year(Today()), 64)), 5-Weekday(Month(DateAdd(Month(Today())&"/1/"&Year(Today()), 64))&"/1/"&Year(DateAdd(Month(Today())&"/1/"&Year(Today()), 64)))+14)), DateTimeFormat.ShortDate),
+
+],
+
+[
+Text(If(Weekday(Month(DateAdd(Month(Today())&"/1/"&Year(Today()), 32))&"/1/"&Year(DateAdd(Month(Today())&"/1/"&Year(Today()), 32))) > 5, 
+DateAdd(Month(DateAdd(Month(Today())&"/1/"&Year(Today()), 32))&"/1/"&Year(DateAdd(Month(Today())&"/1/"&Year(Today()), 32)), 5-Weekday(Month(DateAdd(Month(Today())&"/1/"&Year(Today()), 32))&"/1/"&Year(DateAdd(Month(Today())&"/1/"&Year(Today()), 32)))+21),
+ DateAdd(Month(DateAdd(Month(Today())&"/1/"&Year(Today()), 32))&"/1/"&Year(DateAdd(Month(Today())&"/1/"&Year(Today()), 32)), 5-Weekday(Month(DateAdd(Month(Today())&"/1/"&Year(Today()), 32))&"/1/"&Year(DateAdd(Month(Today())&"/1/"&Year(Today()), 32)))+14)), DateTimeFormat.ShortDate),
+
+Text(If(Weekday(Month(DateAdd(Month(Today())&"/1/"&Year(Today()), 64))&"/1/"&Year(DateAdd(Month(Today())&"/1/"&Year(Today()), 64))) > 5, 
+DateAdd(Month(DateAdd(Month(Today())&"/1/"&Year(Today()), 64))&"/1/"&Year(DateAdd(Month(Today())&"/1/"&Year(Today()), 64)), 5-Weekday(Month(DateAdd(Month(Today())&"/1/"&Year(Today()), 64))&"/1/"&Year(DateAdd(Month(Today())&"/1/"&Year(Today()), 64)))+21),
+ DateAdd(Month(DateAdd(Month(Today())&"/1/"&Year(Today()), 64))&"/1/"&Year(DateAdd(Month(Today())&"/1/"&Year(Today()), 64)), 5-Weekday(Month(DateAdd(Month(Today())&"/1/"&Year(Today()), 64))&"/1/"&Year(DateAdd(Month(Today())&"/1/"&Year(Today()), 64)))+14)), DateTimeFormat.ShortDate),
+
+ Text(If(Weekday(Month(DateAdd(Month(Today())&"/1/"&Year(Today()), 96))&"/1/"&Year(DateAdd(Month(Today())&"/1/"&Year(Today()), 96))) > 5, 
+DateAdd(Month(DateAdd(Month(Today())&"/1/"&Year(Today()), 96))&"/1/"&Year(DateAdd(Month(Today())&"/1/"&Year(Today()), 96)), 5-Weekday(Month(DateAdd(Month(Today())&"/1/"&Year(Today()), 96))&"/1/"&Year(DateAdd(Month(Today())&"/1/"&Year(Today()), 96)))+21),
+ DateAdd(Month(DateAdd(Month(Today())&"/1/"&Year(Today()), 96))&"/1/"&Year(DateAdd(Month(Today())&"/1/"&Year(Today()), 96)), 5-Weekday(Month(DateAdd(Month(Today())&"/1/"&Year(Today()), 96))&"/1/"&Year(DateAdd(Month(Today())&"/1/"&Year(Today()), 96)))+14)), DateTimeFormat.ShortDate)
+
+])
